@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h4 class="logo-name">Malavika. A</h4>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <section class="profile">
+            <div class="profile-img">
+                <img src="./assets/profile.jpg" alt="Profile Photo" />
+            </div>
+
+            <div class="profile-content">
+                <h4>Hello, I'm</h4>
+                <h2>Malavika A</h2>
+                <h3>a <span class="typing"></span></h3>
+
+
+                <div class="social-icons">
+                    <a href="mailto:malavikacse2025@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://instagram.com/malu_a__" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/malavika-a-10a24m" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/malavika1024" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+                <div>
+                    <a style="margin-top:-2px " href="./assets/MalavikaA_ Resume.pdf" download class="btn resume-btn ">
+                        Resume</a>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+
+    <section id="About">
+        <section id="about" class="about-section">
+            <h2>About Me</h4>
+                <div class="about-container">
+                    <!-- About Content -->
+                    <div class="about-content ">
+                        <div class="about">
+                            <p>
+                                Hi, I’m<b> Malavika A</b>, a passionate Frontend Developer with expertise in building
+                                responsive
+                                and user-friendly websites. I work with HTML, CSS, JavaScript, Bootstrap, and React.js,
+                                focusing on clean design and seamless user experiences.
+                            </p>
+
+                            <p>As a fresher, I’ve developed several personal and academic projects that showcase my
+                                creativity,
+                                problem-solving, and interest in modern web technologies.
+                                I’m always eager to learn, experiment, and grow, keeping up with the latest trends in
+                                frontend development.
+                            </p>
+
+                            <p>I’m excited to contribute to dynamic teams, apply my skills to real-world challenges, and
+                                continue
+                                enhancing my knowledge in the ever-evolving tech industry.</p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/me.jpg" alt="">
+                    </div>
+                </div>
+                <div class="toggle">
+                    <div class="info-toggle-bar">
+                        <span class="toggle-link" onclick="toggleSection('certificates')">Internships</span>
+                        <span class="toggle-link" onclick="toggleSection('education')">Education</span>
+                    </div>
+
+                    <div id="info-container" class="info-container">
+                        <!-- Certificates -->
+                        <div id="certificates" class="info-box hidden">
+                            <div class="cert-item">
+                                <h4>Full Stack Development</h4>
+                                <p> <strong>Clovion Tech Solutions Pvt. Ltd.| Mar 2025 – Jun 2025</strong></p>
+                                <p>Completed a full-stack internship focused on building responsive web
+                                    applications using HTML, CSS, JavaScript, Python, and
+                                    basic of django.</p>
+                                <a href="./assets/Malavika Internship Certificate.pdf" target="_blank">View
+                                    Certificate</a>
+                            </div>
+
+                            <div class="cert-item">
+                                <h4>Web Development</h4>
+                                <p> <strong>Codebind Technology, Coimbatore | Jul 2024</strong></p>
+                                <p> Completed a web development internship focused on front-end design and
+                                    responsive
+                                    layouts.</p>
+                                <a href="./assets/internship certificate-codebind.jpg" target="_blank">View
+                                    Certificate</a>
+
+                            </div>
+                        </div>
+
+                        <!-- Education -->
+                        <div id="education" class="info-box hidden">
+                            <div class="edu-item">
+                                <h5>Bachelor of Computer Science and Engineering</h5>
+                                <p> Arunachala College of Engineering for Women</p>
+                                <p>CGPA: 8.53 | 2021–2025</p>
+                            </div>
+                            <div class="edu-item">
+                                <h5>Senior Secondary</h5>
+                                <p>Uma Matriculation Higher Secondary School</p>
+                                <p>Percentage: 88% | 2020-2021 </p>
+                            </div>
+                            <div class="edu-item">
+                                <h5>Secondary</h5>
+                                <p>Uma Matriculation Higher Secondary School</p>
+                                <p>Percentage: 87% | 2018-2019 </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+    </section>
+
+
+    <section id="Project">
+        <section id="project" class="project-section">
+            <h2 class="section-title"> Projects</h2>
+            <div class="project-container">
+
+                <div class="project-card">
+                    <img src="./assets/project1.png" alt="E-commerce Project">
+                    <h4> Blockchain based Secure Authentication system for Digital Documents</h4>
+                    <p>Built a blockchain-based system with IPFS to securely authenticate digital documents using Python & Django.</p>
+                    <a href="" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/project2.png" alt="Gemini Clone Project">
+                    <h4>Online Tourism Website</h4>
+                    <p> Developed a responsive tourism portal using HTML, CSS, and JavaScript.
+                    </p>
+                    <a href="https://online-tourism-website-7.vercel.app/" target="_blank">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="./assets/project3.png" alt="AI Chatbot">
+                    <h4>Fashion Store</h4>
+                    <p>Responsive e-commerce website built with Bootstrap for a smooth shopping experience.</p>
+                    <a href="https://ziara-fashion-store.vercel.app/" target="_blank">View Project</a>
+                </div>
+
+
+            </div>
+
+        </section>
+    </section>
+
+
+    <section id="Skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="assets/html-5.png" alt="HTML">
+                <h3>HTML 5</h3>
+                <p>Experienced in creating semantic, well-structured, and accessible web pages.</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/css3.png" alt="CSS">
+                <h3>CSS 3</h3>
+                <p>Skilled in modern layouts, responsive design, and CSS animations.</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/bootstrap.png" alt="Bootstrap">
+                <h3>Bootstrap</h3>
+                <p>Proficient in developing mobile-first and responsive websites using Bootstrap.</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/javascript.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Interactivity, DOM manipulation & dynamic web applications.</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/react-js.png" alt="React">
+                <h3>React</h3>
+                <p>Experienced in developing single-page applications with reusable components and state management.</p>
+            </div>
+            <div class="skill-card">
+                <img src="assets/github.png" alt="GitHub" />
+                <h3>GitHub</h3>
+                <p>Proficient in version control, project hosting, and collaborative workflows using GitHub.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="Contact">
+        <section id="contact" class="contact-section">
+            <h2>Get in Touch</h2>
+
+            <div class="contact-container">
+                <form action="https://formspree.io/f/xanoaqgd" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+
+                    <input type="email" name="email" placeholder="Your Email" required>
+
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+
+
+
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="exp">
+            <h1>Malavika A</h1>
+            <p>Crafting frontend experiences with code & creativity</p>
+        </div>
+
+
+
+        <div class="foot">
+
+            <a href="mailto:dharmagisham@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://instagram.com/_magisha_" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dharmagisha-m" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/dharmagisha" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>@2025 Malavika A. All rights reserved</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
