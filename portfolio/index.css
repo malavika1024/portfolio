@@ -111,16 +111,20 @@ header {
 .profile-content {
   max-width: 500px;
   margin-top: 50px;
+  padding-top: 10px;
+ 
 }
 
 .profile-content h2 {
   font-size: 48px;
   margin: 0;
   font-weight: bold;
+  padding-top:  20px;
 }
 
 .profile-content h3 {
   font-size: 24px;
+  padding:16px;
 }
 
 .profile-content h4 {
